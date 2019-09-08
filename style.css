@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Template:   cocoon-master
+Version:    0.0.5
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/*必要ならばここにコードを書く*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/************************************
+** バグ対応
+************************************/
+#cse-search-box input[name="q"] {
+  line-height: normal;
+  width: calc(100% - 60px);
+  float: none;
+}
+
+/************************************
+** 基本フォント設定
+************************************/
+
+body {
+font-family: 'Noto Sans TC', 'Kosugi Maru', sans-serif;
+}
+
+.button1{
+	display:block;
+	position:relative;	
+	background-color:#25d366;
+	color:#eeeeee;
+	border-style: none;
+	/*padding:6px;*/
+}
+.button1 i{
+	/*position:absolute;*/
+	/*top:50%;*/
+	/*left:50px;*/
+	margin-top:-0.5em;	
+}
+
+.button1 div{
+	margin-top:-0.5em;
+}
+
+#whatsapp-button{
+      background-color: #25d366;
+    }
+
+.icon-whatsapp:before {
+  content: "\e915";
+}
+
+/*日本語フォント*/
+.nihongo {
+	font-family:'Kosugi Maru', sans-serif;
+}
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1240px以下*/
+@media screen and (max-width: 1240px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*1030px以下*/
+@media screen and (max-width: 1030px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*768px以下*/
+@media screen and (max-width: 768px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+}
