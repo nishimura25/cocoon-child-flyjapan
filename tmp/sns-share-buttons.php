@@ -2,8 +2,15 @@
 /**
  * Cocoon WordPress Theme
  * @author: yhira
+ * @
  * @link: https://wp-cocoon.com/
  * @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+ * 
+ * FLY JAPAN 用子テーマ カスタマイズ
+ * @author: nishimura25
+ * @
+ * @link: https://flyjapan.tokyo/
+ * @license: http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
  */ ?>
 <?php if ( is_sns_share_buttons_visible($option) ):
 //var_dump($option) ?>
